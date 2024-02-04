@@ -1,0 +1,45 @@
+Bubble Sort:
+
+Advantages:
+
+    Simple Implementation: Bubble sort is straightforward to understand and implement.
+    In-Place Sorting: It operates in-place, requiring only a constant amount of extra memory.
+
+Disadvantages:
+
+    Inefficiency: Poor time complexity, making it inefficient for large datasets compared to other algorithms like quicksort and mergesort.
+    O(n^2) Time Complexity: Bubble sort has a time complexity of O(n^2) in the worst case, which can be inefficient for large datasets.
+
+Scenarios for Use:
+Bubble sort may be suitable for small datasets or situations prioritizing simplicity over efficiency. It performs well in nearly sorted arrays due to its adaptive nature.
+
+Quicksort:
+
+Advantages:
+
+    Efficiency: Excellent average-case time complexity of O(n log n) and performs well on large datasets.
+    In-Place Sorting: Can be implemented to sort the array in-place, requiring only a logarithmic amount of additional memory.
+    Adaptive: Adapts well to nearly sorted arrays and performs efficiently in practice.
+
+Disadvantages:
+
+    Not Stable: Quicksort is not stable, meaning it may change the relative order of equal elements.
+    Worst-Case Time Complexity: While average-case time complexity is good, the worst-case time complexity can be O(n^2), though rare with good pivot selection strategies.
+
+Scenarios for Use:
+Quicksort is ideal for large datasets or situations requiring high performance, commonly used due to its efficiency in various scenarios.
+
+Mergesort:
+
+Advantages:
+
+    Stable: Mergesort is a stable sorting algorithm, preserving the relative order of equal elements.
+    Predictable Performance: Consistent time complexity of O(n log n) regardless of input data, suitable for scenarios where predictable performance is essential.
+    Parallelizable: Easily parallelized, enabling efficient sorting on multi-core or distributed systems.
+
+Disadvantages:
+
+    Additional Space: Requires additional memory proportional to the input array's size, less suitable for memory-constrained environments.
+
+Scenarios for Use:
+Mergesort is well-suited for scenarios requiring stable sorting and consistent performance, often used in external sorting applications for large files that don't fit into memory.
