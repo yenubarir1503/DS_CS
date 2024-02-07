@@ -1,0 +1,15 @@
+    Start at the Head: Begin the search process by setting a pointer to the head of the linked list. This pointer will be used to traverse the list.
+
+    Iterate Through the List: Use a loop to traverse through the linked list, node by node, until either the target element is found or the end of the list is reached.
+
+    Check Each Node: At each node, compare the value stored in the node with the target element you are searching for.
+
+    Continue Until Found or End: If the value matches the target element, the search is successful, and you can stop iterating. If not, move to the next node and repeat the process.
+
+    Handle End of List: If the end of the list is reached without finding the target element, the element is not present in the list.
+
+    Return Result: Depending on the outcome of the search, return either the node containing the target element (if found) or a message indicating that the element is not in the list.
+
+    End of Search: Terminate the search algorithm after finding the target element or reaching the end of the list.
+
+This iterative approach systematically checks each node in the linked list until the target element is found or the end of the list is reached, making it an efficient and reliable method for searching in linked lists.
