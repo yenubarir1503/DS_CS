@@ -28,7 +28,7 @@ public:
         model = newModel;
     }
 
-    // Getter for year
+    //Getter for year
     int getYear() const {
         return year;
     }
